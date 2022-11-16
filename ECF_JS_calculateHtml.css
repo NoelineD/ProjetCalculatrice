@@ -1,0 +1,77 @@
+/* 
+* Feuille de style de l'ECF : ECF_JS_CalculateHtml.css
+* Didier Bonneau
+* Afpa DWWM Créteil maj 29-07-2021
+*/
+.grid-calculate {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px 5px;
+    grid-template-areas: "resultat resultat resultat resultat"
+        "bouton1 bouton2 bouton3 bouton4"
+        "bouton1 bouton2 bouton3 bouton4"
+        "bouton1 bouton2 bouton3 bouton4"
+        "bouton1 bouton2 bouton3 bouton4"
+        "bouton1 bouton2 bouton3 bouton4";
+    width:400px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #e47b47;
+}
+
+.resultat { grid-area: resultat;
+            background-color: #e47b47;
+}
+
+.bouton1, .bouton2, .bouton3, .bouton4 .bouton5{
+    grid-area: bouton;
+}
+
+.bouton .boutonEgale{
+   background-color:rgb(209, 78, 78);
+   color:white;
+   width: 100%;
+   height: 100%;
+   font-size: 2em;
+   left:20px;
+}
+
+.bouton .boutonC{
+    background-color:rgb(209, 78, 78);
+    color:white;
+    width: 100%;
+    height: 100%;
+    font-size: 2em;
+ }
+
+.bouton .orangebuttons{
+    background-color:#ecc8a2;
+}
+
+.resultat input {
+    width: 80%;
+    height: 70%;
+    margin-top: 2%;
+    text-align:right;
+    margin-left:70px;
+    font-size: 2em;
+}
+.bouton .orangebuttons{
+    width: 100%;
+    height: 100%;
+    font-size: 2em;
+}
+.bouton button:hover{
+cursor:pointer;
+background-color:#f5b754;
+color:white;
+}
+
+.calculate {
+    border: 2px solid #CCCCCC;
+    Padding:20px;
+    border-radius:15px 15px 15px 15px;
+}
+
+h1, h2 {text-align: center;}
