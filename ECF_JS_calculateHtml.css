@@ -1,8 +1,4 @@
-/* 
-* Feuille de style de l'ECF : ECF_JS_CalculateHtml.css
-* Didier Bonneau
-* Afpa DWWM Créteil maj 29-07-2021
-*/
+
 .grid-calculate {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
